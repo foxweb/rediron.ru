@@ -1,0 +1,63 @@
+/* 
+    Document   : rediron
+    Created on : 10.04.2011, 2:57:08
+    Author     : foxweb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+body {
+    color:#222222;
+    background-color: #8eb7dd;
+    font-family:Consolas,"Lucida Grande","Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size:10pt;
+    text-align: center;
+    text-shadow: #aaaaaa 1px 1px 1px;
+}
+
+img#bg {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+#content {
+    position:relative;
+    z-index:1;
+    width:500px;
+    height:150px;
+    top:50%;
+    left:50%;
+    margin:-75px 0 0 -250px;
+}
+
+#contacts, #tagline {
+    margin-top: 20px;
+}
+
+#contacts a, #contacts a:link, #contacts a:visited {
+    text-decoration:none;
+    color:#333333;
+}
+
+#contacts a:hover {
+    color:#000000;
+}
